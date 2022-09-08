@@ -1,0 +1,59 @@
+/* Exemplo de CSS servido estaticamente pelo Express.
+Autor: Fabrício G. M. de Carvalho
+*/
+body{
+    background-color:#8FBC8F;
+}
+
+.roject-class{
+    list-style: none;
+}
+
+.listProject-class{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10pt;
+    width: 150pt;
+    height: 150pt;
+    background-color: rgb(0, 255, 200);
+    border-radius: 20%;
+    text-align: center;
+    padding-top: 70pt;
+    border-color: black;
+    border-style: solid;
+}
+
+.descritor{
+    font-weight: bold;
+}
+
+
+.navbar-class{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#708090;
+  }
+  
+  .listNavbar-class{
+    float: left;
+    color:aqua;
+  }
+  
+   .linkNavBar-class{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .linkNavBar-class:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
